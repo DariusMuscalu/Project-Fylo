@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Basics */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:hsl(218, 28%, 13%);
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Utility */
+.flex-item {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.btn {
+    background-color: hsl(198, 60%, 50%);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 1rem 7rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:hsl(176, 68%, 64%);
+}
+
+/* Navigation */
+nav {
+    background-color: hsl(217, 28%, 15%);
+}
+
+#title {
+    position: absolute;
+    left: 6%;
+    top: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    padding: 1rem;
+    margin-top: 0.6rem;
+    font-size: 1.5rem;
+}
+
+nav ul li {
+    padding: 0 1rem;
+    margin: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+header {
+    background-image: url('./images/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-color: hsl(217, 28%, 15%);
+}
+
+header .flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+header .item-1 {
+    margin: 2rem 1rem;
+    padding: 2rem;
+}
+
+header .item-1 h1 {
+    margin-top: 1rem;
+    padding: 1rem 26rem;
+    line-height: 2.5rem;
+}
+
+header .item-1 p {
+    margin-bottom: 2rem;
+    padding: 2rem 20rem;
+    line-height: 2.5rem;
+}
+
+/* What We Do Section */
+
+#what-we-do .flexbox-container-1, #what-we-do .flexbox-container-2 {
+    display: flex;
+    flex-wrap: no-wrap;
+    margin: 0 10rem;
+    padding: 2rem;
+}
+
+#what-we-do .flexbox-container-2 .flex-item, #what-we-do .flexbox-container-1 .flex-item {
+    text-align: center;
+    margin-right: 3rem;
+    padding: 2rem;
+}
+
+#what-we-do .flexbox-container-2 .flex-item h2, #what-we-do .flexbox-container-1 .flex-item h2 {
+    margin: 2rem;
+    font-size: 1.6rem;
+}
+
+#what-we-do .flexbox-container-2 .flex-item p, #what-we-do .flexbox-container-1 .flex-item p {
+    font-size: 1.2rem;
+}
+
+/* See-How Section */
+#see-how .flexbox-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#see-how .flexbox-container .flex-item {
+    margin: 2rem;
+}
+
+#see-how .flexbox-container .item-6 {
+    margin-left: 7%;
+}
+
+#see-how .flexbox-container .item-7 {
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+#see-how .flexbox-container .item-7 h2 {
+    margin-bottom: 2rem;
+    margin-right: 40%;
+    line-height: 2.5rem;
+    text-align: left;
+}
+
+#see-how .flexbox-container .item-7 p {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+/* Reviews Section */
+#reviews .flexbox-container {
+    display: flex;
+    margin: 4rem;
+    background-image: url('./images/bg-quotes.png');
+    background-repeat: no-repeat;
+}
+
+#reviews .flexbox-container .flex-item {
+    margin: 1.4rem;
+    padding: 2rem;
+    text-align: left;
+    font-size: 1rem;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 10px;
+}
+
+#reviews .flexbox-container .flex-item img {
+    margin-top: 2rem;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+#reviews .flexbox-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#reviews .flexbox-container-2 p {
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+/* Mail-Contact Section */
+#mail-contact {
+    color: #fff;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color:hsl(217, 28%, 15%);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #000;
+    z-index: 2;
+    position: relative;
+    bottom: -6.5rem;
+}
+
+#mail-contact h2 {
+    padding-top: 2rem;
+}
+
+#mail-contact p {
+    padding: 1.9rem;
+}
+
+#mail-contact form input {
+    padding: 1rem;
+    margin: 2rem;
+    width: 50%;
+    border-radius: 25px;
+    border: none;
+}
+
+#mail-contact form button {
+    padding: 0.75rem;
+    margin: 0;
+}
+
+/* Footer */
+#main-footer {
+    background-color: #fff;
+    z-index: 1;
+    padding-top: 12rem;
+}
