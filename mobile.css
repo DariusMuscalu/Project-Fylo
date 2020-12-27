@@ -168,3 +168,113 @@
    }
    
 }
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    /* Navigation */
+    #title {
+        left: 3%;
+    }
+
+    nav ul li {
+        padding: 0;
+    }
+
+    /* Header Section */
+    header .flexbox-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    header .item-1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    header .item-1 h1 {
+        padding: 3rem 0;
+    }
+
+    header .item-1 p {
+        padding: 0;
+        margin: 2rem 8rem;
+    }
+
+    header .flexbox-container .item-1 img {
+        margin-top: 3rem;
+        padding: 0 12rem;
+        width: 100%;
+        height: auto;
+    }
+
+    /* What-We-Do Section */
+    #what-we-do .flexbox-container-1, #what-we-do .flexbox-container-2 {
+        margin: 0;
+    }
+
+    /* See-How Section */
+    #see-how .flexbox-container {
+        flex-direction: column;
+    }
+
+    /* Reviews Section */
+    #reviews .flexbox-container {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    #see-how .flexbox-container .item-7 h2 {
+        margin-right: auto;
+    }
+
+    /* Mail-Contact Section */
+    #mail-contact {
+        width: 85%;
+    }
+
+    #mail-contact form button {
+        font-size: 1.2rem;
+    }
+
+    /* Footer */
+    footer #logo {
+        padding-left: 1rem;
+        margin: auto;
+    }
+
+    footer .main-footer {
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    footer .main-footer img {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer .main-footer .flex-item-1 {
+        padding-right: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    footer .main-footer .flex-item-2 .row-container-1, .row-container-2 {
+        padding: 1rem 0;
+    }
+
+    footer .main-footer .flex-item-3 ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    footer .main-footer .flex-item-4 ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    footer .main-footer .flex-item-5 i {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
