@@ -167,6 +167,12 @@ header .item-1 p {
 
 #see-how .flexbox-container .item-7 a {
     float: left;
+    text-decoration: underline;
+    color: hsl(176, 68%, 64%);
+}
+
+#see-how .flexbox-container .item-7 a:hover {
+    color: #fff;
 }
 
 /* Reviews Section */
@@ -232,6 +238,7 @@ header .item-1 p {
     width: 50%;
     border-radius: 25px;
     outline: none;
+    border: none;
 }
 
 #mail-contact form button {
@@ -241,31 +248,52 @@ header .item-1 p {
 
 /* Footer */
 footer {
-    background-color: #ccc;
+    background-color: hsl(216, 53%, 9%);
     color: #fff;
     z-index: 1;
     padding-top: 12rem;
 }
 
 footer #logo {
-    padding-left: 4rem;
+    padding-left: 5rem;
     margin: 2rem;
 }
 
 footer  .main-footer {
     display: flex;
-    background-color: #000;
-    margin-left: 2rem;
-    padding: 4rem;
+    justify-content: center;
+    padding: 2rem;
 }
 
 footer .main-footer img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 footer .main-footer .flex-item-1 {
-    padding-right: 4rem;
+    margin-top: 1rem;
+    padding-right: 6rem;
+    display: flex;
+}
+
+footer .main-footer .flex-item-1 img {
+    margin-right: 1rem;
+}
+
+footer .main-footer .flex-item-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .main-footer .flex-item-2 img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+footer .main-footer .flex-item-2 .row-container-1, .row-container-2 {
+    display: flex;
+    padding: 1rem;
 }
 
 footer .main-footer .flex-item-3 ul {
@@ -286,4 +314,13 @@ footer .main-footer .flex-item-4 ul {
 
 footer .main-footer .flex-item-4 ul li {
     padding: 0.5rem;
+}
+
+footer .main-footer .flex-item-5 i {
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+footer .main-footer .flex-item-5 i:hover {
+    color: hsl(176, 68%, 64%);
 }

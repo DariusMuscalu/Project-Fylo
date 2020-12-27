@@ -1,0 +1,147 @@
+@media screen and (max-width: 480px) {
+    /* Navigation */
+    #title {
+        left: 3%;
+        top: 1.3rem;
+    }
+
+    #title img {
+        width: 90px;
+        height: auto;
+    }
+
+    nav ul {
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        margin-top: 1.5rem;
+        padding: 0;
+    }
+
+    nav ul li a {
+        padding: 0;
+    }
+
+    /* Header Section */
+    header .flexbox-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    header .flexbox-container .item-1 img {
+        margin-top: 3rem;
+        padding: 0 2rem;
+        width: 100%;
+        height: auto;
+    }
+
+    header .item-1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    header .item-1 h1 {
+        margin-top: 2rem;
+        padding: 0 2rem;
+        font-size: 1.7rem;
+    }
+
+    header .item-1 p {
+        padding: 0 3rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+   /* What-We-Do */
+   #what-we-do .flexbox-container-1, #what-we-do .flexbox-container-2 {
+       flex-direction: column;
+       padding: 0;
+        margin: 0;
+   }
+
+   #what-we-do .flexbox-container-2 .flex-item, #what-we-do .flexbox-container-1 .flex-item {
+       padding: 0;
+       margin: 0;
+   }
+
+   #what-we-do .flexbox-container-2 .flex-item img, #what-we-do .flexbox-container-1 .flex-item img {
+       padding-top: 6rem;
+   }
+
+   #what-we-do .flexbox-container-2 .flex-item p, #what-we-do .flexbox-container-1 .flex-item p {
+       padding: 0 2rem;
+   }
+
+   /* See-How Section */
+   #see-how .flexbox-container {
+       flex-direction: column;
+   }
+
+   #see-how .flexbox-container .item-6 img {
+       width: 100%;
+       height: auto;
+       margin-top: 8rem;
+   }
+
+   #see-how .flexbox-container .item-7 h2 {
+       text-align: left;
+       margin: 0;
+       line-height: 1.5;
+       font-size: 1.1rem;
+       font-weight: bold;
+   }
+
+   #see-how .flexbox-container .item-7 p {
+        font-size: 1rem;
+   }
+
+   #see-how .flexbox-container .item-7 a {
+       font-size: 1rem;
+   }
+
+   /* Reviews Section */
+   #reviews .flexbox-container {
+       flex-direction: column;
+       margin: 4rem 0.5rem;
+   }
+
+   #reviews .flexbox-container-2 p {
+       margin: 0;
+       padding-top: 2rem;
+       margin-left: 0.3rem;
+   }
+
+   /* Mail-Contact Section */
+   #mail-contact {
+       width: 90%;
+   }
+
+   #mail-contact form input {
+       width: 80%;
+       border: none;
+   }
+
+   #mail-contact form button {
+       margin-bottom: 2rem;
+       width: 80%;
+       font-size: 1rem;
+   }
+
+   /* Footer */
+   footer #logo {
+       margin: 0 auto;
+   }
+
+   footer  .main-footer {
+       flex-direction: column;
+   }
+
+   footer .main-footer .flex-item-1 {
+       flex-direction: column;
+   }
+
+   
+}
