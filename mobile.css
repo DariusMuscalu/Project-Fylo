@@ -143,5 +143,28 @@
        flex-direction: column;
    }
 
+   footer .main-footer .flex-item-2 img {
+       width: 20px;
+       height: 20px;
+   }
+
+   footer .main-footer .flex-item-2 .row-container-1, .row-container-2 {
+       padding: 1rem 0;
+       margin-top: 0.5rem;
+   }
+   
+   footer .main-footer .flex-item-3 ul {
+       padding: 1.5rem 0;
+       margin: 0;
+   }
+
+   footer .main-footer .flex-item-4 ul {
+       margin: 0;
+       padding: 1.5rem 0;
+   }
+
+   footer .main-footer .flex-item-5 {
+        text-align: center;
+   }
    
 }
